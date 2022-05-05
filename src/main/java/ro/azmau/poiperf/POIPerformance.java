@@ -53,7 +53,7 @@ public class POIPerformance {
 			workbook.close();
 		}
 		catch (IOException e) {
-			log.error("", e);
+			log.error("Exception on closing workbook", e);
 		}
 	}
 
